@@ -7,7 +7,9 @@
 namespace Ui {
 class MainWindow;
 }
-
+namespace plugin {
+namespace core {
+class PluginManager;
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -18,6 +20,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    PluginManager *manager;
 };
+}
+}
 
 #endif // MAINWINDOW_H

@@ -1,8 +1,15 @@
 #include "coreplugin.h"
+using namespace plugin;
+using namespace core;
 
 CorePlugin::CorePlugin(QObject *parent)
     : IWidget(parent)
 {
+}
+
+bool CorePlugin::inheritWidget()
+{
+    return true;
 }
 
 QMainWindow *CorePlugin::mainWidget()

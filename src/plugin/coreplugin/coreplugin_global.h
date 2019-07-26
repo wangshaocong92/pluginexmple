@@ -9,4 +9,8 @@
 #define COREPLUGIN_EXPORT Q_DECL_IMPORT
 #endif
 
+namespace plugin {
+namespace core {
+}
+}
 #endif // COREPLUGIN_GLOBAL_H

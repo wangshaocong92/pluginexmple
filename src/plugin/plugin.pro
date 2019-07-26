@@ -1,4 +1,5 @@
 TEMPLATE=subdirs
 CONFIG += ordered
 
-SUBDIRS += coreplugin \
+SUBDIRS += coreplugin \           
+           editplugin

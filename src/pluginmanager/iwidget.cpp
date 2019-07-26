@@ -9,6 +9,16 @@ QMainWindow *IWidget::mainWidget()
     return nullptr;
 }
 
+QWidget *IWidget::centralWidget()
+{
+    return nullptr;
+}
+
+QWidget *IWidget::widget()
+{
+    return nullptr;
+}
+
 BottomAreaWidget *IWidget::bottomAreaWidget()
 {
     return nullptr;

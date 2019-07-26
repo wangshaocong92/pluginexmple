@@ -1,0 +1,8 @@
+{
+    "Name" : "edit",
+    "Author" : "shaocong.wang",
+    "Group" : "Core",
+    "Organization":"Null",
+    "Version":"1.01",
+	"Interface":"EditInterface"
+}

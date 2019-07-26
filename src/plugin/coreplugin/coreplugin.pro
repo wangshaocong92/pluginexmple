@@ -1,19 +1,21 @@
 TARGET = core
 
-include(../../../pluginexample.pri)
-DESTDIR = $$PROJECT_LIB_PATH
-win32:LIBS += $$PROJECT_LIB_PATH/pluginmanager.lib
+include(../../plugin.pri)
 
-CONFIG += plugin
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+   pluginmanager\pluginmanager.ui
 
 HEADERS += \
     mainwindow.h \
     coreplugin_global.h \
-    coreplugin.h
+    coreplugin.h \
+   pluginmanager\pluginmanager.h \
+    pluginmanager\treewidgetitem.h
 
 SOURCES += \
     mainwindow.cpp \
-    coreplugin.cpp
+    coreplugin.cpp \
+   pluginmanager\pluginmanager.cpp \
+    pluginmanager\treewidgetitem.cpp

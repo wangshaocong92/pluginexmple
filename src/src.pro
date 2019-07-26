@@ -1,6 +1,8 @@
 TEMPLATE=subdirs
 CONFIG += ordered
 
-SUBDIRS +=pluginmanager \
+SUBDIRS +=          api\
+           pluginmanager \
+             interface\
                  plugin \
                     app \
