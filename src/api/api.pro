@@ -1,1 +1,6 @@
-TEMPLATE = aux
+
+TEMPLATE  = subdirs
+CONFIG   += ordered
+
+SUBDIRS = \
+    re\

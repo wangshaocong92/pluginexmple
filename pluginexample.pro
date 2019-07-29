@@ -3,4 +3,5 @@ CONFIG += ordered
 
 SUBDIRS +=  src \
             share \
-            dist
+            dist \
+            gosource     \

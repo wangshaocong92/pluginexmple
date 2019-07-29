@@ -11,9 +11,11 @@ HEADERS += \
     editinterface.h \
     interface_global.h \
     interfacemanager.h \
-    interface.h
+    interface.h \
+    automaticinterface.h
 
 SOURCES += \
     editinterface.cpp \
     interfacemanager.cpp \
-    interface.cpp
+    interface.cpp \
+    automaticinterface.cpp
